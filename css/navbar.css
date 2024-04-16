@@ -1,0 +1,148 @@
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0 50px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+nav a {
+  color: white;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-items li:last-child {
+  border-right: none;
+}
+
+.nav-item .whatsapp-icon {
+  height: 35px;
+}
+
+.nav-item .flag-icon {
+  height: 30px;
+}
+
+.nav-item {
+  border-right: 1px solid white;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  position: relative;
+}
+
+.nav-contact {
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  height: 38px;
+}
+
+.nav-contact-info {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-contact-info-text-sm {
+  font-size: 10px;
+  color: var(--primary-color);
+}
+
+.nav-contact img {
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.dropdown-menu {
+  visibility: hidden;
+  position: absolute;
+  background: white;
+  border-radius: 6px;
+  min-width: 200px !important;
+  color: #464646;
+  top: 60px;
+  right: -14px;
+  padding: 15px 0;
+  width: 220px;
+  line-height: 17px;
+  z-index: 20;
+}
+
+.nav-contact1:hover .dropdown-menu,
+.nav-currency1:hover .dropdown-menu,
+.nav-profile1:hover .dropdown-menu {
+  visibility: visible;
+}
+
+.dropdown-menu-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+  padding: 10px 15px;
+  color: #464646;
+}
+
+
+.active-currency,
+.active-currency a {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.dropdown-menu-item a {
+  color: #464646;
+}
+
+.dropdown-menu-item:hover {
+  background-color: rgba(70, 70, 70, 0.1);
+}
+
+.dropdown-menu-item img {
+  height: 28px;
+  margin-right: 10px;
+}
+
+.sign-in-btn-margin {
+  margin: 16px 15px;
+}
+
+.my-16 {
+  margin: 16px 0;
+}
+
+.mx-15 {
+  margin: 0 15px;
+}
+
+.sign-in-btn {
+  background-color: var(--primary-color);
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,38 @@
+footer {
+  font-size: 14px;
+}
+
+.footer-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #adb5bd;
+}
+
+footer .headers {
+  width: 100%;
+  color: #9fa7ad;
+  border-bottom: 1px solid #e2e6e9;
+  margin-bottom: 6px !important;
+  padding-bottom: 4px;
+}
+
+footer a {
+  color: #14acf2;
+}
+
+footer p {
+  margin-bottom: 4px !important;
+}
+
+.sub-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  height: 58px;
+  color: #657279;
+}

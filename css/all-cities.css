@@ -1,0 +1,222 @@
+.all-cities-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px;
+  grid-column-gap: 2em;
+  column-gap: 2em;
+  grid-row-gap: 1em;
+}
+.all-cities-container .card {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.all-cities-container h3 {
+  margin-top: 0;
+  font-size: 16.8px;
+  color: #00aeff;
+}
+
+.all-cities-container p {
+  margin-bottom: 0;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Suscribe Section */
+.subscribe-section {
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.subscribe-container {
+  width: 600px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.subscribe-container .form-control {
+  padding: 0 32px;
+  font-size: 1rem;
+}
+
+.subscribe-container .subscribe-button {
+  width: 118px;
+  height: 41px;
+  border-radius: 8px;
+  background-color: #00aeff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   Featured Section
+   ========================================================================== */
+.featured-section {
+  padding: 120px 20px 40px 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.featured-container {
+  max-width: 1110px;
+  margin: 60px auto;
+  display: flex;
+  gap: 2em;
+  justify-content: space-around;
+}
+
+.get-more-bookings h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #4f4f4f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.get-more-bookings p {
+  margin-bottom: 30px;
+}
+
+.get-more-bookings .get-more-bookings-button {
+  display: block;
+  width: 200px;
+  height: 41px;
+  border-radius: 8px;
+  background-color: #00aeff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 12.5px 20px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   Get App Section
+   ========================================================================== */
+
+.get-app {
+  background-color: #eff8fb;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  padding: 80px 0 0 20px;
+}
+
+.get-app-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.get-app-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 480px;
+  padding: 10% 5% 10% 10%;
+}
+
+.get-app-container h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #00aeff;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.get-app-container h3 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+/* ==========================================================================
+   Unlock Deals Section
+   ========================================================================== */
+
+.unlock-deals {
+  background-color: #084482;
+  padding: 16px;
+  min-height: 95px;
+  margin: 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.unlock-deals-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1100px;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.lock-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.lock-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.unlock-deals-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.unlock-deals-text h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.unlock-deals-text p {
+  font-size: 16px;
+  color: #00aeff;
+}
+
+.unlock-deals-form {
+  display: flex;
+  align-items: center;
+}
+
+.unlock-deals-form form {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  align-items: center;
+  max-width: 500px;
+  height: 41px;
+  border-radius: 6px;
+  overflow: clip;
+}
+
+.unlock-deals-form .form-control {
+  padding: 0 20px;
+  font-size: 1rem;
+  border-radius: 0;
+  border: none;
+}
+.unlock-deals-form button {
+  background-color: #00aeff;
+  padding: 0 40px !important;
+  color: white;
+  cursor: pointer;
+}

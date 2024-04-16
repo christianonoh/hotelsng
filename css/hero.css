@@ -1,0 +1,82 @@
+.hero-container {
+  background-position: 50%;
+  background-image: url(../assets/v7-homepage1.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-content {
+  background: rgba(51, 51, 51, 0.5);
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  height: 123px;
+  width: 100vw;
+  position: absolute;
+  bottom: -61.5px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-form form {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 55px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  width: 100%;
+  height: 43px;
+  border-radius: 8px;
+  border: 1px solid #aaaaaa;
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+
+.search-field-container input {
+  width: 508px;
+  /* height: 50px; */
+  border-radius: 8px;
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+
+.homepage-checkdate input {
+  width: 308px;
+  /* height: 50px; */
+  /* border-radius: 8px; */
+  /* padding: 0 20px; */
+  /* font-size: 1.2rem; */
+}
+
+.search-button {
+  width: 156px;
+  height: 100%;
+  border-radius: 8px;
+  background-color: #00aeff;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.top-deals-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1004px;
+  margin: 40px auto 0 auto;
+}
+
+.top-deals-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #bdbdbd;
+  text-align: left;
+  position: relative;
+}
+
+.top-deals-card h3 {
+  color: #00aeff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.discount-badge-container {
+  position: absolute;
+  top: 4%;
+  left: -10px;
+  background-color: #fc8233;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 0 0 0 4px;
+}
+
+.discount-badge {
+  position: relative;
+}
+
+.discount-amount {
+  position: inherit;
+  background-color: #fc8233;
+  padding: 4px 8px;
+  left: -10px;
+  z-index: 99;
+  color: white !important;
+}
+
+.discount-amount b {
+  color: white !important;
+}
+
+.top-deals-card p {
+  color: #657279;
+  font-size: 15.5px;
+}
+
+.top-deals-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.top-deals-card-details {
+  padding: 16px;
+}
+
+.rv-slant {
+  position: absolute;
+  bottom: 2px;
+  left: -8px;
+}
+
+.rv-slant:before {
+  content: "";
+  background-color: #cf5404;
+  width: 10px;
+  display: block;
+  position: absolute;
+  height: 12px;
+  transform: skewY(30deg);
+  transform-origin: 100% 70%;
+}

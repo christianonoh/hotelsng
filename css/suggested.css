@@ -1,0 +1,45 @@
+.suggested-dest {
+  margin: 120px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.suggested-dests {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  max-width: 1004px;
+  margin: 0 auto;
+}
+
+.suggested-dest-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #00aeff;
+  margin-top: 40px;
+}
+
+.suggested-dest-card h3 {
+  color: #00aeff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.suggested-dest-card p {
+  color: #657279;
+  font-size: 15.5px;
+}
+
+
+.suggested-dest-card:hover {
+  background-color: #00aeff;
+}
+
+.suggested-dest-card:hover h3,
+.suggested-dest-card:hover p {
+  color: white;
+}

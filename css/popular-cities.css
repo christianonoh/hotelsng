@@ -1,0 +1,55 @@
+.popular-city-card {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  max-height: 300px;
+}
+
+.popular-city-card-details {
+  background: rgba(51, 51, 51, 0.5);
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.popular-city-card-popup {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 33.33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: -50%;
+  transition: bottom 0.25s ease-in-out;
+}
+
+.popular-city-card:hover .popular-city-card-popup {
+  bottom: 0;
+}
+
+.book-hotel-btn {
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+
+.book-hotel-btn:hover {
+  background-color: #00aeff;
+  border: 2px solid #00aeff;
+}
