@@ -1,7 +1,7 @@
 .hero-container {
   background-position: 50%;
   background-image: url(../assets/v7-homepage1.jpg);
-  height: 50vh;
+  height: max(500px, 60vh);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -31,17 +31,17 @@
   display: flex;
   height: 123px;
   width: 100vw;
-  position: absolute;
-  bottom: -61.5px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  background: transparent;
+  margin-top: calc(-0.2 * 200px) !important;
 }
 
 .search-form form {
   display: flex;
-  position: sticky;
-  top: 0;
   width: 80%;
   height: 100%;
   gap: 10px;
